@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginBottom="300dp"
+    tools:context=".MainActivity">
+
+    <EditText
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:hint="Product Id"
+        android:id="@+id/p_id"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Product Name"
+        android:id="@+id/p_name"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Product Price"
+        android:id="@+id/p_price"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Product Quantity"
+        android:id="@+id/p_quantity"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/save_btn"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="Save"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cart_btn"
+        android:text="Check Cart"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lbl"
+        android:textColor="@color/black"
+        />
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
